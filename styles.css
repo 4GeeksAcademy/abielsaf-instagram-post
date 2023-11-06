@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.post{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.post-header{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.info-post{
+    display: flex;
+}
+.post-name{
+   margin-left: 3px;
+}
+.html-logo{
+    margin-top: 10px;
+}
+.ellipsis-logo{
+    margin: 0;
+}
+.main-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.post-icons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.group-icons{
+    width: 15%;
+}
+.lone-icon{
+    padding-right: 10px;
+}
+.post-body{
+    margin-top: 10px;
+}
+.p2{
+    margin-top: 10px;
+}
